@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:latest as payments-tests
 
 # Get up to date
 RUN apt-get update
