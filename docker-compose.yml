@@ -12,7 +12,7 @@ services:
           - merchant.securetrading.net
 
   tests:
-    build: .
+    build: docker/payments-tests
     image: securetrading1/py-payments-testing
     volumes:
       - .:/app
